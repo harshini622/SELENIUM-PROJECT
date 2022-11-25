@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="8"/>
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="DAY5.Pgrm3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="urlLink"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- DAY5.Pgrm3 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

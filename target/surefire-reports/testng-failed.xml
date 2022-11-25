@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="DAY4.DdtExample">
+        <methods>
+          <include name="login" invocation-numbers="3"/>
+          <include name="connect"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- DAY4.DdtExample -->
+      <class name="DAY4.ReadingExcel">
+        <methods>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- DAY4.ReadingExcel -->
+      <class name="DAY4.DataDrivenLogin">
+        <methods>
+          <include name="Clearup"/>
+          <include name="Test" invocation-numbers="3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- DAY4.DataDrivenLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
